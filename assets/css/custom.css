@@ -198,7 +198,10 @@
 
 .masthead {
   height: auto;
-  min-height: 500px;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -412,21 +415,35 @@ body {
 
 /* Style the submit button */
 input[type=submit] {
-    background: #9bf0e1;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1;
-    padding: 22px;
-    text-transform: uppercase;
-    border:none;
-    border-radius: 48px;
-    text-align: center;
-    margin-top:30px;
-    color: #000;
-    min-width: 100%;
+  text-align: center;
+  font-weight:bold;
+  border: 4px solid #000;
+  border-radius: 25px;
+  box-shadow: -8px 8px 0 0 #000;
+  color: #000;
+  min-height: 5vh;
+  line-height: 4vh;
+  background: white;
+  font-family: monospace;
+  text-transform:uppercase;
+  font-size: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 100%;
+  margin-left: 8px;
+  display: inline-block;
+  margin-right: 2vw;
+  margin-bottom: 3vw;
 }
 
 /* Add a background color to the submit button on mouse-over */
 input[type=submit]:hover {
-  background-color: #fff;
+  background: #000;
+    color: white;
+    border: 4px solid white;
+    transition: background 0.1s ease-out;
+    transition: color 0.1s ease-out;
+    transition: border 0.1s ease-out;
 }
