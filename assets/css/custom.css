@@ -421,7 +421,8 @@ input[type=submit] {
   border-radius: 25px;
   box-shadow: -8px 8px 0 0 #000;
   color: #000;
-  min-height: 5vh;
+  min-height: 56px;
+  max-width:300px;
   line-height: 4vh;
   background: white;
   font-family: monospace;
