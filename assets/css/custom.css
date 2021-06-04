@@ -375,11 +375,11 @@ body {
 
 /* Style inputs */
   input[type=text], select {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 400;
   font-stretch: normal;
   font-style: normal;
-  line-height: 3;
+  font-family: 'VT323';
   color: #fff;
   height:70px;
   width:100%;
@@ -395,11 +395,12 @@ body {
 
 /* Style inputs */
   input[type=email], select {
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 400;
     font-stretch: normal;
     font-style: normal;
     line-height: 3;
+    font-family: 'VT323';
     color: #fff;
     height:70px;
     width:100%;
@@ -447,4 +448,20 @@ input[type=submit]:hover {
     transition: background 0.1s ease-out;
     transition: color 0.1s ease-out;
     transition: border 0.1s ease-out;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fefefe;
+  opacity: 1; /* Firefox */
+  font-family: 'VT323';
+  font-weight:300;
+  font-size:25px;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #fefefe;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #fefefe;
 }
