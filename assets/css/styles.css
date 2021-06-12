@@ -80,7 +80,6 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  height:100%;
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -421,7 +420,7 @@ h6, .h6 {
 }
 
 .lead {
-  font-size: 1.1rem;
+  font-size: 1.6rem;
   font-weight: 400;
 }
 
@@ -507,6 +506,28 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+
+.img-fluid-app {
+  max-width: 80%;
+  height: auto;
+}
+
+.img-fluid-card {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-fluid-header {
+  max-width: 800px;
+  height: auto;
+  margin-left:-150px;
+}
+
+@media (max-width: 768px)
+.img-fluid-header {
+    max-width: 100%;
+    height: auto;
 }
 
 .img-thumbnail {
@@ -9888,6 +9909,10 @@ button.bg-cyan:focus {
   background-color: #0061f2 !important;
 }
 
+.bg-light-green {
+  background-color: #7cffed !important
+}
+
 a.bg-blue:hover, a.bg-blue:focus,
 button.bg-blue:hover,
 button.bg-blue:focus {
@@ -17793,12 +17818,25 @@ body {
   background-image: linear-gradient(135deg, #0061f2 0%, rgba(105, 0, 199, 0.8) 100%);
 }
 
-.bg-gradient-blue-to-yellow {
-  background: radial-gradient(87.14% 114.3% at 66.13% 12.86%, #34D399 0%, rgba(147, 223, 196, 0) 100%), linear-gradient(180deg, #F472B6 0%, #FBBF24 100%);
+.bg-gradient-paperchain-green {
+  background: radial-gradient(87.14% 114.3% at 66.13% 12.86%, #40ffb9 0%, rgba(147, 223, 196, 0) 100%), linear-gradient(180deg, #ddffcb 0%, #a2fb8c 100%);
   background-size: cover;
   height:100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+.bg-gradient-paperchain-purple {
+  background: radial-gradient(87.14% 114.3% at 66.13% 12.86%, #d940ff 0%, rgba(147, 223, 196, 0) 100%), linear-gradient(180deg, #ffcbfd 0%, #fb8cf5 100%);
+  background-size: cover;
+  height:100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.bg-gradient-blue-to-yellow {
+  background-color: #13F4EF;
+  background-image: linear-gradient(135deg, #13F4EF 0%, rgba(104, 255, 0, 0.8) 100%);
 }
 
 .bg-gradient-blue-to-fl-blue {
@@ -19859,7 +19897,7 @@ body {
 
 @media (max-width: 991.98px) {
   .navbar-marketing.bg-transparent.navbar-dark {
-    background-color: #1f2d41 !important;
+    background-color: #000 !important;
   }
 
   .navbar-marketing.bg-transparent.navbar-light {
@@ -20281,12 +20319,12 @@ i-feather svg {
 }
 
 .icon-list-social {
-  display: -webkit-box;
-  display: flex;
+
 }
 .icon-list-social .icon-list-social-link {
-  font-size: 1.25rem;
-  margin-right: 0.5rem;
+  font-size: 4.25rem;
+  padding-left:0.5rem;
+  paddding-right: 0.5rem;
 }
 
 .video {
@@ -20468,7 +20506,8 @@ section {
 }
 .page-header .page-header-content .page-header-title {
   font-size: 4rem;
-  font-weight: 700;
+  color:#2c232e;
+  font-weight: 900;
 }
 .page-header .page-header-content .page-header-text {
   font-size: 1.8rem;
@@ -20592,7 +20631,6 @@ section {
 }
 
 .device {
-  position: relative;
   background-size: cover;
 }
 

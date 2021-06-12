@@ -23,13 +23,6 @@
         <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.min.js"></script>
         <script src="https://malsup.github.io/jquery.form.js"></script>
-        
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-P8XHK5R');</script>
-
 
 <script type="text/javascript">
   function getQueryVariable(variable) {
@@ -52,8 +45,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
  }
  </script>
 
+ 
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P8XHK5R');</script>
+
+
+<script type="text/javascript">
+window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=document.createElement("script");r.type="text/javascript",r.async=!0,r.src="https://cdn.heapanalytics.com/js/heap-"+e+".js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(r,a);for(var n=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","resetIdentity","removeEventProperty","setEventProperties","track","unsetEventProperty"],o=0;o<p.length;o++)heap[p[o]]=n(p[o])};
+heap.load("2989385842");
+</script>
+
     </head>
-    <body onload="onLoad()" class="bg-gradient-blue-to-yellow">
+    <body onload="onLoad()" class="bg-gradient-paperchain-purple">
       
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P8XHK5R"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -63,57 +69,61 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div id="layoutDefault_content">
         <main>
 
+          <header class="page-header page-header-neon-green bg-gradient-paperchain-purple">
+            <div class="page-header-content mb-n5">
+                  <div class="container px-5">
+                      <div class="row gx-5 justify-content-center align-items-center">
+                          <div class="col-lg-6" data-aos="fade-right">
+                              <h1 class="page-header-title mt-10 mb-5">Get ready for daily payments</h1>
+                              <p class="page-header-text text-dark">Confirm your information to get started</p>
+                              <form name="launch-confirmation" id="my-form-element" method="POST" netlify-honeypot="bot-field" autocomplete="off" data-netlify="true" action="/success?utm_source=launch&utm_medium=website&utm_campaign=activation">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="form-input form-input-dark">
+            <p class="hidden">
+<label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+</p>
+            <input type="email" name="email" id="email" required="required" placeholder="Enter your email">
+          </div>
+          <div class="form-input form-input-dark">
+            <input type="text" name="spotify-id" id="spotify-id" required="required" placeholder="Drop your Spotify link">
+            <input type="hidden" name="umid" id="umid" value=""/>
+            <input type="hidden" name="umem" id="umem" value=""/>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <input type="submit" value="Submit" id="submit" class="btn enter_button section-text-lg">
+          <p class="text-light small" style="color:#fff;">By clicking "Submit" you agree to Paperchain's <a href="https://paperchain.io/privacy-policy" target="_blank">Privacy Policy</a>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+
+                          </div>
+                          <div class="col-lg-5" data-aos="fade-left" style="background-image: url('./assets/img/paperchain-card-phone-01.png');background-size: 100%;background-repeat: no-repeat;">
+                              <div class="device-wrapper mx-auto mb-n15">
+                                  <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                                      <div class="screen"></div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </header>
+
 
 <header class="page-header  masthead">
-                        <div class="page-header-content pt-10" data-aos="fade-up">
+                        <div class="page-header-content" data-aos="fade-up">
                             <div class="container text-center">
                                 <div class="row justify-content-center">
                                     <div class="col-lg-12">
-                                        <h1 class="page-header-title mb-5" style="color:#fff;">Get ready for Daily Payments<br> with Paperchain</h1>
-                                        <p class="page-header-text text-light" style="color:#fff;">Confirm your information to get started &#128071;</p>
-
-
-                                    </div>
-                                  </div>
-                                  <div class="row justify-content-center">
-                                    <div class="col-lg-2"></div>
-                                    <div class="col-lg-8">
-                                      <form name="launch-confirmation" id="my-form-element" method="POST" netlify-honeypot="bot-field" autocomplete="off" data-netlify="true" action="/success?utm_source=launch&utm_medium=website&utm_campaign=activation">
-          <div class="row">
-            <div class="col-md-9">
-              <div class="row">
-                <div class="col-sm-12">
-                  <div class="form-input form-input-dark">
-                    <p class="hidden">
-    <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
-  </p>
-                    <input type="email" name="email" id="email" required="required" placeholder="Enter your email">
-                  </div>
-                  <div class="form-input form-input-dark">
-                    <input type="text" name="spotify-id" id="spotify-id" required="required" placeholder="Drop your Spotify link">
-                    <input type="hidden" name="umid" id="umid" value=""/>
-                    <input type="hidden" name="umem" id="umem" value=""/>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12 col-sm-4">
-                  <input type="submit" value="Submit" class="btn enter_button section-text-lg">
-                  <p class="text-light small" style="color:#fff;">By clicking "Submit" you agree to Paperchain's <a href="https://paperchain.io/privacy-policy" target="_blank">Privacy Policy</a>.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </form>
-
-
-                                    </div>
-                                    <div class="col-lg-3"></div>
-                                </div>
-                                <div class="row justify-content-center mt-10">
-                                    <div class="col-lg-12">
                                         <p class="text-light small" style="color:#fff;">Paperchain Services provided by Stripe Payments Company. Banking Services provided by Evolve Bank & Trust, Member FDIC. Paperchain Card is issued by Paperchain's partners pursuant to a license from Visa U.S.A. Inc. and may be used everywhere in the U.S. Visa cards are accepted.</p>
-
                                     </div>
                                   </div>
                             </div>
